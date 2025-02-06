@@ -63,7 +63,7 @@ function displayValue($value) {
         <div class="profile-card">
             <h2 class="mb-4 text-center">Profile Details</h2>
             <div class="row g-3">
-                <div class="col-md-6">
+                <div class="col-12">
                     <label class="label">Plantilla Number</label>
                     <div class="mini-card"><?php echo displayValue($profile["PN"]); ?></div>
                 </div>

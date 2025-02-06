@@ -13,7 +13,7 @@ $profiles = $profileStatement->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profiles Page</title>
+    <title>Profiles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -28,7 +28,7 @@ $profiles = $profileStatement->fetchAll(PDO::FETCH_ASSOC);
     </header>
     <div class="container mt-5">
         <h2 class="mb-4 text-center">Profiles</h2>
-        <div class="card shadow-lg p-4">
+        <div class="card shadow-lg p-4 profile-table">
             <div class="table-responsive">
                 <table id="profilesTable" class="table table-striped table-hover">
                     <thead class="table-dark bg-dark">

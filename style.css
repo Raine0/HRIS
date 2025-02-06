@@ -107,10 +107,14 @@ nav.open ~ .overlay {
   pointer-events: auto;
 }
 /* Ensure the date columns do not wrap and have a fixed width */
-th:nth-child(5), /* Birth Date */
-th:nth-child(11), /* Date Hired */
+th:nth-child(5),
+th:nth-child(11),
 td:nth-child(5),
 td:nth-child(11) {
-    width: 120px;  /* Adjust width as needed */
-    white-space: nowrap; /* Prevents wrapping */
+    width: 120px;
+    white-space: nowrap;
+}
+.profile-table {
+  width: 1500px !important;
+  justify-self: center !important;
 }
